@@ -1,0 +1,16 @@
+// базовые подключения
+@import "vars";
+@import "fonts";
+@import "settings";
+
+
+// подключения сброса стилей
+@import "./libs/normalize";
+
+
+// подключения компонентов страницы
+// @import "./components/header";
+// @import "./components/bunner";
+// @import "./components/_skills";
+// @import "./components/_slider";
+// @import "./components/response";
