@@ -1,13 +1,8 @@
-
-import '../../scss/main.scss';
+import Header from "../header/Header";
+import "../../scss/main.scss";
 
 function App() {
-
-  return (
-    <div className='container'>
-      старт
-    </div>
-  )
+  return <Header />;
 }
 
-export default App
+export default App;
