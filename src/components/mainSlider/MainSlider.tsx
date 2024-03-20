@@ -13,7 +13,7 @@ function MainSlider() {
                 <Swiper
                     modules={[Navigation, Autoplay]}
                     slidesPerView={1}
-                    autoplay={true}
+                    autoplay={false}
                     loop={true}
                     navigation
                 >

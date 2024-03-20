@@ -33,15 +33,13 @@
 
     .swiper-button-prev,
     .swiper-button-next {
-        width: calc(var(--swiper-navigation-size) / 20* 27);
+        width: 0;
         color: var(--green-color);
     }
 
     .swiper-button-prev:after,
     .swiper-button-next:after {
-
         font-size: 20px;
-
     }
 
 }
