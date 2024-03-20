@@ -1,6 +1,6 @@
 import logo from "../../img/logo.svg";
 import user from "../../img/user.png";
-import SelectHeader from "../select-header/SelectHeader";
+import City from "../city/City";
 
 function Header() {
   const menu = [
@@ -28,7 +28,7 @@ function Header() {
             ))}
           </ul>
         </nav>
-        <SelectHeader />
+        <City />
         <button className="button">Заказать</button>
         <div className="user flex">
           <img src={user} alt="Иконка пользователя" />

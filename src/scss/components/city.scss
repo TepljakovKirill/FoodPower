@@ -1,0 +1,69 @@
+.city {
+    position: relative;
+    flex-direction: column;
+
+    &__choice {
+        align-items: center;
+        color: var(--green-color);
+        position: relative;
+
+        img {
+            margin-left: 10px;
+            width: 9px;
+            height: 6px;
+            cursor: pointer;
+        }
+    }
+
+    &__choice::before {
+        content: url('../img/map.png');
+        position: absolute;
+        top: 1px;
+        left: -23px;
+        z-index: 5;
+        width: 16px;
+        height: 16px;
+    }
+
+    .city__list {
+        padding: 32px;
+        position: absolute;
+        top: 30px;
+        left: -45px;
+        flex-direction: column;
+        border-radius: 32px;
+        border: 1px solid rgb(245, 245, 245);
+        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+        background: rgb(245, 245, 245);
+        transition: 0.2s ease-in-out;
+        z-index: 10;
+    }
+
+    .city__item:nth-child(2) {
+        margin-top: 34px;
+        margin-bottom: 34px;
+    }
+
+    .city__item {
+        margin-left: 15px;
+        position: relative;
+        cursor: pointer;
+        transition: 0.2s ease-in-out;
+    }
+
+    .city__item:hover {
+        color: var(--green-color);
+        transition: 0.2s ease-in-out;
+    }
+
+    .city__item::before {
+        content: url('../img/map-black.png');
+        position: absolute;
+        top: 1px;
+        left: -23px;
+        z-index: 5;
+        width: 16px;
+        height: 16px;
+    }
+
+}

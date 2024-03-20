@@ -1,0 +1,47 @@
+.slider {
+    margin-top: 64px;
+
+    .slide__container {
+        padding: 0 75px;
+        justify-content: space-between;
+        align-items: center;
+
+        .slide__descr {
+            max-width: 540px;
+        }
+
+        .slide__title {
+            font-family: "MontserratAlternates";
+            font-size: 72px;
+            color: var(--green-color);
+            line-height: 90px;
+        }
+
+        .slide__text {
+            margin-top: 28px;
+            margin-bottom: 28px;
+            font-family: "MontserratAlternates";
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            color: var(--gray-color);
+        }
+
+    }
+
+    //настройка слайдера
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        width: calc(var(--swiper-navigation-size) / 20* 27);
+        color: var(--green-color);
+    }
+
+    .swiper-button-prev:after,
+    .swiper-button-next:after {
+
+        font-size: 20px;
+
+    }
+
+}
