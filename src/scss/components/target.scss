@@ -1,0 +1,105 @@
+.target__title-block {
+    font-family: "MontserratAlternates";
+    font-size: 48px;
+    text-align: center;
+    line-height: 60px;
+    color: var(--gray-color);
+}
+
+.target__container {
+    margin-top: 64px;
+    justify-content: space-between;
+
+    .target-1 {
+        background: url(./img/target-1.jpeg);
+    }
+
+    .target-2 {
+        background: url(./img/target-2.jpeg);
+    }
+
+    .target-3 {
+        background: url(./img/target-3.jpeg);
+    }
+
+    .target {
+        padding: 32px;
+        width: 416px;
+        height: 300px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: var(--green-color);
+
+        .target__title {
+            max-width: 240px;
+            font-family: "MontserratAlternates";
+            font-size: 24px;
+            line-height: 29px;
+        }
+
+        .target__descr {
+            margin-top: 16px;
+            max-width: 160px;
+        }
+
+        .target__button {
+            flex-direction: column;
+
+            &-calories {
+                width: 115px;
+                height: 44px;
+                color: var(--green-color);
+                font-family: "Montserrat";
+                font-weight: 500;
+                border-radius: 50px;
+                border: 2px solid var(--green-color);
+                background: transparent;
+                cursor: pointer;
+                transition: 0.2s ease-in-out;
+            }
+
+            &-calories:hover {
+                color: var(--white-color);
+                background-color: var(--green-color);
+                transition: 0.2s ease-in-out;
+            }
+
+            &-calories:focus {
+                color: var(--white-color);
+                background-color: var(--green-color);
+            }
+
+            &-calories:not(:first-child) {
+                margin-top: 8px;
+            }
+
+        }
+
+        .tekst-white {
+            color: var(--white-color);
+        }
+
+        .button-white {
+            border: 2px solid var(--white-color);
+            color: var(--white-color);
+        }
+
+        .button-white:hover {
+            border: 2px solid var(--green-color);
+            background-color: var(--white-color);
+            color: var(--green-color);
+            transition: 0.2s ease-in-out;
+        }
+
+        .button-white:focus {
+            border: 2px solid var(--green-color);
+            background-color: var(--white-color);
+            color: var(--green-color);
+            transition: 0.2s ease-in-out;
+        }
+
+    }
+}
