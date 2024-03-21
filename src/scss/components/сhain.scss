@@ -1,0 +1,23 @@
+.chain__container {
+    margin-top: 64px;
+    padding-top: 80px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+
+    .chain {
+        // max-width: 304px;
+        text-align: center;
+
+        .chain__ttle {
+            margin-top: 16px;
+            font-family: "MontserratAlternates";
+            font-size: 24px;
+            line-height: 29px;
+        }
+
+        .chain__descr {
+            margin-top: 16px;
+        }
+    }
+}
